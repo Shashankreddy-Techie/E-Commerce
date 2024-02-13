@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reddy Ecommerce</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="ecommerse.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;1,700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="logo.png.png" width="125px">
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">PRODUCT</a></li>
+                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="#">CONTACT</a></li>
+                        <li><a href="#">ACCOUNT</a></li>
+                    </ul>
+                </nav>
+                <i class="fa-solid fa-bag-shopping"></i>
+                 <img src="menu-bar.png.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+            <div class="row">
+                <div class="col-2">
+                     <h1>Gives you a <br>new Style</h1>
+                     <p>Just be cool and save money by shopping with us and just be happy <br>
+                         and full of clothes and enjoy happy</p>
+                         <a href="" class="btn">Explore Now &#8594;</a>
+                </div>
+                <div class="col-2">
+                        <img src="profile.png" > 
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <!-- Featured Categories-->
+    <div class="categories">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3"><img src="shirt.jpg" alt=""></div>
+                <div class="col-3"><img src="trousers.jpg" alt=""></div>
+                <div class="col-3"><img src="shoes.jpg" alt=""></div>
+            </div>
+        </div>
+        
+    </div>
+    <!-----Featured Products----->
+    <div class="small-container">
+        <h2 class="title">Featured Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="accessories.jpg" >
+                <h4>Accessories</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>Rs.500/-</p>
+            </div>
+            <div class="col-4">
+                <img src="tshirts.png.jpg" >
+                <h4>Stylish T-Shirts</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>Rs.500/-</p>
+            </div>
+            <div class="col-4">
+                <img src="formal.png.jpg" >
+                <h4>Stunning Formals</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>Rs.500/-</p>
+            </div>
+            <div class="col-4">
+                <img src="coat.png.jpg" >
+                <h4>Office Suited</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>Rs.500/-</p>
+            </div>
+        </div>
+        <h2 class="title">Latest Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="accessories.jpg" >
+                <h4>Accessories</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>Rs.500/-</p>
+            </div>
+            <div class="col-4">
+                <img src="tshirts.png.jpg" >
+                <h4>Stylish T-Shirts</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>Rs.500/-</p>
+            </div>
+            <div class="col-4">
+                <img src="formal.png.jpg" >
+                <h4>Stunning Formals</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>Rs.500/-</p>
+            </div>
+            <div class="col-4">
+                <img src="coat.png.jpg" >
+                <h4>Office Suited</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>Rs.500/-</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="accessories.jpg" >
+                <h4>Accessories</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>Rs.500/-</p>
+            </div>
+            <div class="col-4">
+                <img src="tshirts.png.jpg" >
+                <h4>Stylish T-Shirts</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>Rs.500/-</p>
+            </div>
+            <div class="col-4">
+                <img src="formal.png.jpg" >
+                <h4>Stunning Formals</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>Rs.500/-</p>
+            </div>
+            <div class="col-4">
+                <img src="coat.png.jpg" >
+                <h4>Office Suited</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>Rs.500/-</p>
+            </div>
+        </div>
+    </div>
+    <!----------- offer------------>
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="box1.png" class="offer-img">
+                </div>
+                <div class="col-2">
+                    <p>Exclusively Available on REDDY Store</p>
+                    <h1>Smart TV</h1>
+                    <small>
+                        This is a 24inch MI smart Tv which is at a top discounted price only 
+                        on our REDDY Store come and grab it before the offer ends its a FHD and 
+                        smart Technology integrated television. With free remote and desk or 
+                        wall mount.
+                    </small>
+                    <a href="#" class="btn">Buy Now &#8594;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!---Testimonial-->
+
+    <div class="testimonial">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <i class="fa-solid fa-quote-left"></i>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
+                       iste asperiores aut delectus aliquid omnis laudantium, esse quod 
+                       suscipit repellat adipisci nisi non sed, ad quas, totam illo 
+                       sapiente consequatur!
+                    </p>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <img src="rater1.png.jpg" >
+                    <h3>Miss. Rashmika</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa-solid fa-quote-left"></i>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
+                       iste asperiores aut delectus aliquid omnis laudantium, esse quod 
+                       suscipit repellat adipisci nisi non sed, ad quas, totam illo 
+                       sapiente consequatur!
+                    </p>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <img src="rater2.png.jpg" >
+                    <h3>Mr. Junaid</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa-solid fa-quote-left"></i>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
+                       iste asperiores aut delectus aliquid omnis laudantium, esse quod 
+                       suscipit repellat adipisci nisi non sed, ad quas, totam illo 
+                       sapiente consequatur!
+                    </p>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <img src="rater4.png.jpg" >
+                    <h3>Miss. Michelle</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!----BRANDS---->
+
+    <div class="brands">
+        <div class="small-container">
+            <div class="row">
+               <div class="col-5">
+                <img src="google.png.jpg" >
+               </div>
+               <div class="col-5">
+                <img src="youtube.png.jpg" >
+               
+               </div>
+               <div class="col-5">
+                <img src="twiter.png.jpg" >
+              
+               </div>
+               <div class="col-5">
+                <img src="insta.png.jpg" >
+                
+               </div>
+               <div class="col-5">
+                <img src="facebook.png.jpg" >
+               </div>
+            </div>
+        </div>
+    </div>
+
+    <!-------Footer-------->
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download our App</h3>
+                    <p>Download our App for Android and ios mobile</p>
+                    <div class="app-logo">
+                        <img src="android.png.jpg">
+                        <img src="apple.png.jpg">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="logo.png.png" alt="">
+                    <p>Our purpose is to sustainably make pleasure and 
+                        benefits of outfits to the many
+                    </p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful: links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow us On</h3>
+                    <ul>
+                        <li>facebook</li>
+                        <li>twiter</li>
+                        <li>instagram</li>
+                        <li>youtube</li>
+                    </ul>
+                </div>
+                
+            </div>
+            <hr>
+                <p class="copyright">Copyright 2020- Reddystores</p>
+        </div>
+    </div>
+    <!---JS for toggle menu-->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+        function menutoggle() {
+            if(MenuItems.style.maxHeight == "0px")
+            {
+                MenuItems.style.maxHeight = "200px"
+            }
+            else{
+                MenuItems.style.maxHeight = "0px"
+            }
+        }
+    </script>
+</body>
+</html>
